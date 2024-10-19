@@ -20,6 +20,8 @@ router.put('/:id',movieUpdate)
 
 //d-delete 
 
-router.delete('/:id', movieDelete) 
+router.delete('/:id', movieDelete
+    
+) 
 
 export default router;
