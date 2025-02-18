@@ -15,6 +15,8 @@ export const movieCreate = ('/',(req, res)=>{
     return res.json(req.body);
 })
 
+
+
 //validate your data
  const newMovie = new movie({
     title: req.body.title,
